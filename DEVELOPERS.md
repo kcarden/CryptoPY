@@ -14,10 +14,10 @@ To get started as a CryptoPY developer, follow these steps:
 
 3. **Set Up the Development Environment:** Create a virtual environment for CryptoPY and install the necessary dependencies:
 
-## cd CryptoPY
-## python -m venv venv
-## source venv/bin/activate # On Windows, use: venv\Scripts\activate
-## pip install -r requirements.txt
+``` cd CryptoPY ```
+``` python -m venv venv ```
+``` source venv/bin/activate # On Windows, use: venv\Scripts\activate ```
+``` pip install -r requirements.txt ```
 
 
 4. **Explore the Codebase:** Familiarize yourself with the project's structure, modules, and existing plugins. The main code resides in `main.py`.
@@ -52,11 +52,11 @@ If you have any questions, suggestions, or need support, feel free to connect wi
 
 If you find CryptoPY useful and would like to support the project, you can donate to the following cryptocurrency addresses:
 
-ETH - 0x3f3c3cd12e0676B4D2C4f42501f77BfdE715e5fb
+ETH - ```0x3f3c3cd12e0676B4D2C4f42501f77BfdE715e5fb```
 
-BTC - bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq
+BTC - ```bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq```
 
-Cash - $KevinCarden
+Cash - ```$KevinCarden```
 
 We appreciate any contribution, big or small!
 
