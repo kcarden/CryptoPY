@@ -41,11 +41,11 @@ If you have any questions, suggestions, or need support, feel free to connect wi
 
 If you find CryptoPY useful and would like to support the project, you can donate to the following addresses:
 
-ETH - 0x3f3c3cd12e0676B4D2C4f42501f77BfdE715e5fb
+ETH - ```0x3f3c3cd12e0676B4D2C4f42501f77BfdE715e5fb```
 
-BTC - bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq
+BTC - ```bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq```
 
-Cash - $KevinCarden
+Cash - ```$KevinCarden```
 
 We appreciate any contribution, big or small!
 
