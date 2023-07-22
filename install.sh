@@ -25,13 +25,14 @@ install_dependencies() {
   fi
 
   # Install Python packages
-  pip3 install requests
+  pip3 install -r requirements.txt
 }
 
 # Function to create required folders
 create_folders() {
   echo "Creating necessary folders..."
   mkdir -p plugins
+  mkdir -p modules
 }
 
 # Function to download files from the GitHub repository
@@ -40,11 +41,12 @@ download_files() {
   # Replace the URL below with your actual GitHub repository URL
   git clone https://github.com/kcarden/CryptoPY.git
   # Move the files to the appropriate folders
-  mv your-repo/main.py .
-  mv your-repo/plugins/* plugins/
-  mv your-repo/ReadMe.txt .
+  mv CryptoPY/main.py .
+  mv CryptoPY/plugins/* plugins/
+  mv CryptoPY/ReadMe.md .
+  mv CryptoPY/DEVELOPERS.md .
   # Delete the downloaded repository folder
-  rm -rf your-repo
+  rm -rf CryptoPY
 }
 
 main() {
