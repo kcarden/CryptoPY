@@ -40,8 +40,6 @@ In CryptoPY, plugins are at the heart of the platform, enabling you to customize
 
 We welcome contributions from the community! If you have an awesome plugin or a feature that can benefit CryptoPY users, feel free to submit it as a pull request. Let's collaborate and build a robust ecosystem of plugins together!
 
----
-
 ## Connect with Us
 
 If you have any questions, suggestions, or need support, feel free to connect with us:
@@ -49,7 +47,6 @@ If you have any questions, suggestions, or need support, feel free to connect wi
 - Email: dev.cryptopy@gmail.com
 - Twitter: [@cryptopy_dev](https://twitter.com/cryptopy_dev)
 
----
 
 ## Donation
 
@@ -62,8 +59,6 @@ BTC - bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq
 Cash - $KevinCarden
 
 We appreciate any contribution, big or small!
-
----
 
 Thank you for being a part of the CryptoPY community. Together, let's revolutionize crypto trading and unleash the power of customizable plugins! :bomb:
 
