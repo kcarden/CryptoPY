@@ -10,7 +10,7 @@ To get started as a CryptoPY developer, follow these steps:
 
 2. **Clone the Repository:** After forking, clone the repository to your local development environment using the following command:
 
-## git clone https://github.com/your-username/CryptoPY.git
+``` git clone https://github.com/kcarden/CryptoPY.git ```
 
 3. **Set Up the Development Environment:** Create a virtual environment for CryptoPY and install the necessary dependencies:
 
