@@ -15,8 +15,11 @@ To get started as a CryptoPY developer, follow these steps:
 3. **Set Up the Development Environment:** Create a virtual environment for CryptoPY and install the necessary dependencies:
 
 ``` cd CryptoPY ```
+
 ``` python -m venv venv ```
+
 ``` source venv/bin/activate # On Windows, use: venv\Scripts\activate ```
+
 ``` pip install -r requirements.txt ```
 
 
