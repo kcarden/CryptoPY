@@ -14,34 +14,29 @@ Start by cloning the main CryptoPY repository to your local machine:
 `cd CryptoPY`
 
 ### Step 2: Run the Install Script
+
 Next, run the **install.sh** script to create necessary folders and download the required files:
 
 Linux / macOS:
 
 `bash install.sh`
 
-
-## Key Features 
-
-- **Plugin-based Architecture:** CryptoPY's core strength lies in its plugin-based architecture. Traders can develop and integrate their own custom plugins to connect with various exchanges, implement trading strategies, interact with APIs, or even leverage external services like ChatGPT to enhance decision-making processes.
-
-- **Extensibility and Flexibility:** With an ever-growing library of plugins, CryptoPY allows traders to tailor their trading experience to suit their specific needs and strategies. The possibilities are endless, and the only limit is your imagination.
-
-- **User-friendly Interface:** Despite its powerful capabilities, CryptoPY maintains a user-friendly interface that makes it accessible to traders of all levels. The intuitive design ensures a smooth experience as you explore the world of custom trading.
-
-- **Community-driven Development:** As an open-source project, CryptoPY thrives on collaboration and community-driven development. We welcome contributors from all backgrounds and experiences to help shape the future of crypto trading.
-
 Windows (using **Git Bash**):
+
 1. Install **Git for Windows** (if you haven't already): https://git-scm.com/downloads
+
 2. Open **Git Bash** and navigate to the CryptoPY directory using the cd command.
+
 3. Run the **install.sh** script:
 
 `bash install.sh`
 
 ### Step 3: Explore CryptoPY
+
 After successful installation, you're all set to explore CryptoPY! Refer to the Developer's Guide for writing custom plugins and contributing to the project.
 
 ## Key Features
+
 **Plugin-based Architecture:** CryptoPY's core strength lies in its plugin-based architecture. Traders can develop and integrate their own custom plugins to connect with various exchanges, implement trading strategies, interact with APIs, or even leverage external services like ChatGPT to enhance decision-making processes.
 
 **Extensibility and Flexibility:** With an ever-growing library of plugins, CryptoPY allows traders to tailor their trading experience to suit their specific needs and strategies. The possibilities are endless, and the only limit is your imagination.

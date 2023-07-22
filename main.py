@@ -108,7 +108,7 @@ def edit_plugin():
             messagebox.showerror("Error", f"Failed to open the plugin file for editing.\nError: {e}")
 
 # Function to launch the selected plugin in a new window
-def launch_plugin():
+def launch_plugin(root):
     selected_index = plugin_listbox.curselection()
     if not selected_index:
         return  # No selection, do nothing
@@ -159,7 +159,7 @@ def main():
     btn_add = tk.Button(plugin_launcher_frame, text="+", width=3, command=add_new_plugin)
     btn_subtract = tk.Button(plugin_launcher_frame, text="-", width=3, command=remove_plugin)
     btn_edit = tk.Button(plugin_launcher_frame, text="Edit", width=10, command=edit_plugin)
-    btn_launch = tk.Button(plugin_launcher_frame, text="Launch", width=10, command=launch_plugin)
+    btn_launch = tk.Button(plugin_launcher_frame, text="Launch", width=10, command=lambda: launch_plugin(root))
 
     # Center the buttons underneath the plugin listbox
     btn_add.pack(side=tk.LEFT, padx=2, pady=5)
