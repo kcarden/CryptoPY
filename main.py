@@ -108,6 +108,7 @@ def edit_plugin():
             messagebox.showerror("Error", f"Failed to open the plugin file for editing.\nError: {e}")
 
 # Function to launch the selected plugin in a new window
+
 def launch_plugin(root):
     selected_index = plugin_listbox.curselection()
     if not selected_index:
@@ -122,8 +123,13 @@ def launch_plugin(root):
         messagebox.showerror("Error", f"Failed to import the selected plugin: {selected_plugin}")
         return
 
-    # Execute the plugin function in a new window
-    plugin_module.flashing_text(root)  # Pass the 'root' argument to the flashing_text() function
+    # Check if the plugin has an entry function named "run_plugin"
+    if hasattr(plugin_module, "run_plugin"):
+        # Execute the plugin's entry function in a new window
+        plugin_module.run_plugin(root)
+    else:
+        # If the plugin does not have an entry function, show an error message
+        messagebox.showerror("Error", f"The selected plugin '{selected_plugin}' does not have an entry function.")
 
 def main():
     # Create the main application window
