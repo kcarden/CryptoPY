@@ -24,7 +24,6 @@ To get started as a CryptoPY developer, follow these steps:
 
 ``` pip install -r requirements.txt ```
 
-
 4. **Explore the Codebase:** Familiarize yourself with the project's structure, modules, and existing plugins. The main code resides in `main.py`.
 
 5. **Write Your Plugin:** Ready to unleash your creativity? Create your custom plugin by following the guidelines in the [Plugin Development Guide](DEVELOPERS_GUIDE.md).
@@ -35,7 +34,7 @@ In CryptoPY, plugins are at the heart of the platform, enabling you to customize
 
 1. **Plugin Structure:** A plugin is a Python script located in the `plugins` directory. Name your plugin script with a meaningful and descriptive filename.
 
-2. **Plugin Function:** Each plugin must include a function that defines its main functionality. Consider starting with a function named `flashing_text()`.
+2. **Plugin Function:** Each plugin must include a function named `run_plugin(root)` that serves as the entry point for the plugin. The `root` argument is the Tkinter root window, allowing the plugin to interact with the main application.
 
 3. **Interacting with the Framework:** Plugins can access the core functionality of CryptoPY through the provided APIs. Use these APIs to interact with exchanges, data sources, or external services.
 
@@ -52,19 +51,16 @@ If you have any questions, suggestions, or need support, feel free to connect wi
 - Email: dev.cryptopy@gmail.com
 - Twitter: [@cryptopy_dev](https://twitter.com/cryptopy_dev)
 
-
 ## Donation
 
 If you find CryptoPY useful and would like to support the project, you can donate to the following cryptocurrency addresses:
 
-ETH - ```0x3f3c3cd12e0676B4D2C4f42501f77BfdE715e5fb```
+ETH - `0x3f3c3cd12e0676B4D2C4f42501f77BfdE715e5fb`
 
-BTC - ```bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq```
+BTC - `bc1qff9uzjgypfqy899h8ytnh66lyf7my7adhax5cq`
 
-Cash - ```$KevinCarden```
+Cash - `$KevinCarden`
 
 We appreciate any contribution, big or small!
 
 Thank you for being a part of the CryptoPY community. Together, let's revolutionize crypto trading and unleash the power of customizable plugins! :bomb:
-
----
