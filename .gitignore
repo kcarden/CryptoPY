@@ -7,3 +7,4 @@ venv/
 
 # Ignore new test plugins until operational
 test/
+*.py
