@@ -5,5 +5,5 @@ __pycache__/
 # Ignore virtual environment files (if you are using a virtual environment)
 venv/
 
-# Ignore new plugin until operational
-plugins/ChatGPT.py
+# Ignore new test plugins until operational
+test/
